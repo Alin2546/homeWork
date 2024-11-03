@@ -1,16 +1,33 @@
 package org.example;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class AlgoritmiTest {
-
+    @Test
+    void sumOf100NumbersShouldEqual5050() {
+    assertEquals(0,1);
+    }
 
     @Test
-    void sumShouldEqual5050() {
-        String res = "5050";
-        assertEquals("5050", res);
-
+    void minimumElementFromArray() {
     }
+
+    @Test
+    void displayMaxDigit() {
+    }
+
+    @Test
+    void checkIfPalindrome() {
+    }
+
+    @Test
+    void displayPrimeNumbers() {
+    }
+
+
+
 }
